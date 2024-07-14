@@ -12,7 +12,7 @@ export function HomeLayout() {
                     <h1 className={'text-5xl'}>Digital Excellence</h1>
                 </div>
                 <Button
-                    className="rounded-full w-fit bg-sky-600 py-2 px-6 text-xl text-white hover:bg-sky-500 active:bg-sky-700">
+                    className="rounded-full w-fit bg-sky-600 py-2 px-6 text-lg text-white hover:bg-sky-500 active:bg-sky-700">
                     Explore Our Work
                 </Button>
             </div>

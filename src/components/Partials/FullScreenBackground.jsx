@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import bgImage from '../../assets/background.jpg';
 
 export default function FullScreenBackground({children}) {
     return (
         <div className="bg-cover bg-center h-screen w-full flex items-center justify-center relative"
-             style={{backgroundImage: "url('src/assets/bg-5.jpg')"}}>
+             style={{backgroundImage: `url(${bgImage})`}}>
 
             <div className="absolute top-0 left-0 h-full w-full bg-black opacity-30"></div>
 
