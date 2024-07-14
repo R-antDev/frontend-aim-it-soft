@@ -24,7 +24,7 @@ export default function AboutUsLayout() {
                     <div className={'col-span-2'}>
                         <div className={'md:px-10 px-4 md:mx-10 space-y-10'}>
                             <div className={'space-y-4'}>
-                                <h1 className={'text-3xl text-primaryColor font-bold'}>
+                                <h1 className={'text-3xl text-primaryColor font-bold text-wrap'}>
                                     A results-driven company creating robust, unique and tailored software solutions
                                 </h1>
                                 <p className={'text-lg text-primaryColor text-wrap'}>
