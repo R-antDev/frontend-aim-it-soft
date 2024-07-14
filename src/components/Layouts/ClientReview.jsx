@@ -1,11 +1,12 @@
 import {SectionLabel} from "../SectionLabel.jsx";
 import FormReview from "../Partials/FormReview.jsx";
 import {Button} from '@headlessui/react'
+import {MdOutlineArrowCircleLeft, MdOutlineArrowCircleRight} from "react-icons/md";
 
 
 export default function ClientReview() {
     return (
-        <div className={'container py-10'}>
+        <div className={'container py-6'}>
             <SectionLabel
                 description={' What our clients say about us.'}
                 title={'Client Review'}
@@ -34,11 +35,11 @@ export default function ClientReview() {
                         </p>
                     </div>
                     <div className={'space-x-4'}>
-                        <Button className="inline-flex items-center gap-2 rounded-md bg-gray-700 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white">
-                            Next Review
+                        <Button className="inline-flex items-center gap-2 rounded-md bg-gray-700 py-2 px-3 text-lg font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white">
+                            <MdOutlineArrowCircleLeft />
                         </Button>
-                        <Button className="inline-flex items-center gap-2 rounded-md bg-blue-700 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-blue-600 data-[open]:bg-blue-700 data-[focus]:outline-1 data-[focus]:outline-white">
-                            Previous Review
+                        <Button className="inline-flex items-center gap-2 rounded-md bg-blue-700 py-2 px-3 text-lg font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-blue-600 data-[open]:bg-blue-700 data-[focus]:outline-1 data-[focus]:outline-white">
+                            <MdOutlineArrowCircleRight />
                         </Button>
                     </div>
                 </div>

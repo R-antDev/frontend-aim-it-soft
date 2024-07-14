@@ -9,13 +9,13 @@ import { IoIosSend } from "react-icons/io";
 
 export function Footer() {
     return (
-        <div className={'bg-primaryColor text-white'}>
-            <div className="container py-10 grid grid-cols-1 md:grid-cols-2">
-                <div className={'space-y-6'}>
+        <div className={'bg-primaryColor p-10 text-white'}>
+            <div className="container grid grid-cols-1 gap-10 md:grid-cols-2">
+                <div className={'space-y-4'}>
                     <div className={'space-y-4'}>
                         <SiJirasoftware className="text-6xl"/>
                         <h1 className="text-xl font-bold">aimIT Soft.</h1>
-                        <p className="text-sm text-wrap w-1/2">
+                        <p className="text-sm text-wrap md:w-1/2">
                             aimIT Soft. is a software development company in Bangladesh that started its journey
                             back in 2009; with the aim to deliver passionate and tailored services.
                         </p>
@@ -34,10 +34,10 @@ export function Footer() {
                         <a href={'https://github.com/R-antDev'}>@R-antDev</a>
                     </div>
                 </div>
-                <div className={'space-y-6'}>
+                <div className={'space-y-4'}>
                     <div>
                         <h1 className={'text-2xl font-bold underline underline-offset-4'}>Explore</h1>
-                        <ul className={'py-4'}>
+                        <ul className={'flex md:flex-col py-4 space-x-4 md:space-x-0'}>
                             <li>
                                 <a href="">
                                     Career

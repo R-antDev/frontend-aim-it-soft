@@ -7,13 +7,13 @@ import { FaHandsHelping } from "react-icons/fa";
 
 export default function OurServiceLayout() {
     return (
-        <div className={'container py-10'}>
+        <div className={'container py-6'}>
             <SectionLabel
                 description={'Delivering comprehensive solution for your online presence'}
                 title={'Our services'}
             />
 
-            <div className={'grid grid-cols-4 gap-10 place-items-center'}>
+            <div className={'grid grid-cols-1 md:grid-cols-4 gap-10 place-items-center'}>
                 <ServiceCard
                     description={'Building reliable and scalable software applications to meet your objectives.'}
                     title={'Web Application Development'}

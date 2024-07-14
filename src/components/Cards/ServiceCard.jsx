@@ -12,7 +12,7 @@ export function ServiceCard({ icon, title, description }) {
                 { title }
             </div>
 
-            <div className={'text-md text-balance'}>
+            <div className={'text-md text-wrap'}>
                 { description }
             </div>
 
