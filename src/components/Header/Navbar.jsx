@@ -3,7 +3,7 @@ import { Button } from '@headlessui/react';
 
 function Navbar() {
     return (
-        <nav className="fixed top-0 left-0 w-full shadow-lg bg-primaryColor text-white z-20">
+        <nav className="fixed top-0 left-0 w-full shadow-lg bg-secondaryColor text-white z-20">
             <div className="container h-20 flex items-center justify-between">
                 <div className="flex items-center gap-16">
                     <div className="flex items-center gap-4">
@@ -20,7 +20,7 @@ function Navbar() {
                 </div>
                 <div className="flex gap-4">
                     <Button
-                        className="rounded bg-secondaryColor py-2 px-4 text-sm text-white hover:bg-secondaryColor active:bg-tertiaryColor">
+                        className="rounded bg-primaryColor py-2 px-4 text-sm text-white hover:bg-secondaryColor active:bg-tertiaryColor">
                         Contact us
                     </Button>
                 </div>

@@ -9,7 +9,7 @@ import { IoIosSend } from "react-icons/io";
 
 export function Footer() {
     return (
-        <div className={'bg-gray-900 text-white'}>
+        <div className={'bg-primaryColor text-white'}>
             <div className="container py-10 grid grid-cols-1 md:grid-cols-2">
                 <div className={'space-y-6'}>
                     <div className={'space-y-4'}>
