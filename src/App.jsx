@@ -4,6 +4,7 @@ import {MeetPartnerLayout} from "./components/Layouts/MeetPartnerLayout.jsx";
 import AboutUsLayout from "./components/Layouts/AboutUsLayout.jsx";
 import OurServiceLayout from "./components/Layouts/OurServiceLayout.jsx";
 import ClientReview from "./components/Layouts/ClientReview.jsx";
+import {Footer} from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <AboutUsLayout />
         <OurServiceLayout />
         <ClientReview />
+        <Footer />
     </>
   );
 }
