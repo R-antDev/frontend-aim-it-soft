@@ -33,7 +33,7 @@ function Navbar() {
                             </Disclosure.Button>
                         </div>
                         <div className="hidden md:flex gap-4">
-                            <Button className="rounded bg-primaryColor py-2 px-4 text-sm text-white hover:bg-secondaryColor active:bg-tertiaryColor">
+                            <Button className="rounded bg-primaryColor py-2 px-4 text-sm text-white hover:bg-green-500 active:bg-green-600">
                                 Contact us
                             </Button>
                         </div>
